@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+}
+.top {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0px 5px 10px 5px;
+    grid-template-rows: 15px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    grid-column: 1 / 5;
+    color: rgb(46, 45, 45);
+}
+.top-left {
+    display: grid;
+    grid-template-columns: 10% 10%;
+}
+.top-right {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.signin {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 0px;
+    font-weight: 600;
+}
+.middle {
+    margin-top: 8.5%;
+    margin-left: 40%;
+    display: grid;
+    grid-template-rows: auto 10px;
+    grid-gap: 30px;
+}
+input {
+    height: 40px;
+    width: 590px;
+    border-radius: 20px;
+    margin-left: -155px;
+    border-color: rgb(219, 213, 213);
+    border-width: 1px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo {
+    margin-bottom: -3px;
+}
+.down {
+    margin-top: 65px;
+    margin-left: 555px;
+    margin-right: 570px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 110px 150px;
+    grid-gap: 10px;
+}
+.down1 {
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(247, 242, 242);
+    border-width: 0px;
+}
+.last {
+    width: 100%;
+    height:40px;
+    background-color: rgb(231, 226, 226);
+    position: absolute;
+    bottom: 20px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(46, 45, 45);
+}
+.last-left {
+    display: grid;
+    grid-template-columns: 13% 50%;
+}
+.last-right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
